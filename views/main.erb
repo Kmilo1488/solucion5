@@ -1,0 +1,16 @@
+<h1>Hola!</h1>
+
+<% (1..50).each do |i| %>
+
+  <div class="">
+    <%if i%2 == 1 %>
+    <p><%=i%> soy un numero impar</p>
+    <%end%>
+  </div>
+  <div class="">
+    <%if i%2 == 0 %>
+    <p><%=i%> soy un numero par</p>
+    <%end%>
+  </div>
+
+<%end%>
